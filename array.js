@@ -64,6 +64,16 @@
 // let res1 = arr.some(item => item%2 == 1)
 // console.log(res1);
 
+// 7.find() 返回的是当第一个function返回true的那个元素;与filter的区别在于返回的形式不同;
+// let arr =[
+//     {id: 1, name: 'zs', age: '18'},
+//     {id: 2, name: 'zs1', age: '18'},
+//     {id: 3, name: 'zs2', age: '18'},
+//     {id: 4, name: 'zs3', age: '18'}
+// ]
+// let arr5 = arr.find(item => item.id == 3)
+// console.log(arr5);
+
 
 
 
